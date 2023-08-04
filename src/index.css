@@ -7,5 +7,20 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    overflow: hidden;
+}
+
+body{
+    @apply overflow-hidden
+}
+
+.active::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: -2rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    z-index: 20;
 }
