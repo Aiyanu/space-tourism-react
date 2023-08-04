@@ -15,7 +15,7 @@ function App() {
             </GlobalLayout>
           }>
             <Route path='/' element={<Home/>} />
-            <Route path='/destinations' element={<Destination/>} />
+            <Route path='/destination' element={<Destination/>} />
             <Route path='/crew' element={<Crew/>} />
             <Route path='/technology' element={<Technology/>} />
           </Route>

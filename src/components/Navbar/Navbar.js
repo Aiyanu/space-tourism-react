@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
 export default function Navbar() {
   const dispatch = useDispatch()
-  return <div className="absolute flex items-center justify-between left-0 right-0">
+  return <div className="absolute flex items-center justify-between left-0 right-0 font-barlow text-[16px] uppercase text-center tracking-widest">
     <div className="cursor-pointer ml-8 mt-4">
       <img className="w-[40px]" src={logo} alt="logo" />
     </div>

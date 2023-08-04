@@ -6,11 +6,12 @@ import { toggleMenu } from "../../features/navbar/navbarSlice";
 export default function Menu() {
   const { isMenuOpen } = useSelector((state) => state.navbar)
   const dispatch = useDispatch()
-  return <div className={`${!isMenuOpen && "translate-x-full"} md:hidden overflow-hidden transition-transform absolute px-4 pt-8 right-0 z-20 w-[254px]  max-w-[254px] h-screen bg-[rgba(255,255,255,0.3)] filter backdrop-blur-lg`}>
+  return <div className={`${!isMenuOpen && "translate-x-full"} font-barlow text-[16px] uppercase text-center tracking-widest origin-left md:hidden overflow-hidden transition-transform absolute  top-0 bottom-0 right-0 px-4 pt-8  z-20 w-[254px]  max-w-[254px] bg-[rgba(255,255,255,0.3)] filter backdrop-blur-lg`}>
     <div
-      onClick={()=>dispatch(toggleMenu())}
-      className="w-full mb-16 cursor-pointer">
-      <img className="ml-auto" src={closeMenuButton} alt="" />
+      className="w-full mb-16">
+      <img
+        onClick={() => dispatch(toggleMenu())}
+        className="ml-auto w-5 h-5 cursor-pointer" src={closeMenuButton} alt="" />
     </div>
     <div className="flex flex-col gap-4 justify-center items-start text-white uppercase text-[16px]">
       <NavLink to={"/"}><span className="font-[700] mr-2">00</span> Home</NavLink>

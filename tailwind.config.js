@@ -18,6 +18,18 @@ module.exports = {
         "bgTechnologyMobile": "url('./assets/technology/background-technology-mobile.jpg')",
         "bgTechnologyTablet": 'url(./assets/technology/background-technology-tablet.jpg)',
         "bgTechnologyDesktop": 'url(./assets/technology/background-technology-desktop.jpg)',
+      },
+      textColor: {
+        primary: "#0B0D17",
+        secondary:"#D0D6F9"
+      },
+      backgroundColor: {
+        primary: "#0B0D17",
+        secondary:"#D0D6F9"
+      },
+      fontFamily: {
+        "barlow": ['Barlow Condensed', "sans-serif"],
+        "bellefair": ['Bellefair', "serif"],
       }
     },
   },
