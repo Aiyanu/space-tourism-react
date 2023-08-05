@@ -9,7 +9,7 @@ const destinationSlice = createSlice({
     name: "destination",
     initialState,
     reducers: {
-        setDestination: (state,{payload}) => {
+        setDestination: (state, { payload }) => {
             state.currentDestination = payload
         }
     }

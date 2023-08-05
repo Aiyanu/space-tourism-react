@@ -2,6 +2,16 @@ import moonPng from "./assets/destination/image-moon.png"
 import marsPng from "./assets/destination/image-mars.png"
 import europaPng from "./assets/destination/image-europa.png"
 import titanPng from "./assets/destination/image-titan.png"
+import memeber1 from "./assets/crew/image-douglas-hurley.png"
+import memeber2 from "./assets/crew/image-mark-shuttleworth.png"
+import memeber3 from "./assets/crew/image-victor-glover.png"
+import memeber4 from "./assets/crew/image-anousheh-ansari.png"
+import tech1Portrait from "./assets/technology/image-launch-vehicle-portrait.jpg"
+import tech1Landscape from "./assets/technology/image-launch-vehicle-landscape.jpg"
+import tech2Landscape from "./assets/technology/image-spaceport-landscape.jpg"
+import tech2Portrait from "./assets/technology/image-spaceport-portrait.jpg"
+import tech3Portrait from "./assets/technology/image-space-capsule-portrait.jpg"
+import tech3Landscape from "./assets/technology/image-space-capsule-landscape.jpg"
 
 const data = {
   "destinations": [
@@ -50,7 +60,7 @@ const data = {
     {
       "name": "Douglas Hurley",
       "images": {
-        "png": "./assets/crew/image-douglas-hurley.png",
+        "png": memeber1,
         "webp": "./assets/crew/image-douglas-hurley.webp"
       },
       "role": "Commander",
@@ -59,7 +69,7 @@ const data = {
     {
       "name": "Mark Shuttleworth",
       "images": {
-        "png": "./assets/crew/image-mark-shuttleworth.png",
+        "png": memeber2,
         "webp": "./assets/crew/image-mark-shuttleworth.webp"
       },
       "role": "Mission Specialist",
@@ -68,7 +78,7 @@ const data = {
     {
       "name": "Victor Glover",
       "images": {
-        "png": "./assets/crew/image-victor-glover.png",
+        "png": memeber3,
         "webp": "./assets/crew/image-victor-glover.webp"
       },
       "role": "Pilot",
@@ -77,7 +87,7 @@ const data = {
     {
       "name": "Anousheh Ansari",
       "images": {
-        "png": "./assets/crew/image-anousheh-ansari.png",
+        "png": memeber4,
         "webp": "./assets/crew/image-anousheh-ansari.webp"
       },
       "role": "Flight Engineer",
@@ -88,24 +98,24 @@ const data = {
     {
       "name": "Launch vehicle",
       "images": {
-        "portrait": "./assets/technology/image-launch-vehicle-portrait.jpg",
-        "landscape": "./assets/technology/image-launch-vehicle-landscape.jpg"
+        "portrait": tech1Portrait,
+        "landscape": tech1Landscape
       },
       "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!"
     },
     {
       "name": "Spaceport",
       "images": {
-        "portrait": "./assets/technology/image-spaceport-portrait.jpg",
-        "landscape": "./assets/technology/image-spaceport-landscape.jpg"
+        "portrait": tech2Portrait,
+        "landscape": tech2Landscape
       },
       "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch."
     },
     {
       "name": "Space capsule",
       "images": {
-        "portrait": "./assets/technology/image-space-capsule-portrait.jpg",
-        "landscape": "./assets/technology/image-space-capsule-landscape.jpg"
+        "portrait": tech3Portrait,
+        "landscape": tech3Landscape
       },
       "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained."
     }
