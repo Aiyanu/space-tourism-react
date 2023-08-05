@@ -26,3 +26,14 @@ html {
   background-color: white;
   z-index: 20;
 }
+.active-tab::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  z-index: 20;
+}

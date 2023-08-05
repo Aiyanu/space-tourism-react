@@ -6,7 +6,7 @@ import { toggleMenu } from "../../features/navbar/navbarSlice";
 export default function Menu() {
   const { isMenuOpen } = useSelector((state) => state.navbar)
   const dispatch = useDispatch()
-  return <div className={`${!isMenuOpen && "translate-x-full"} font-barlow text-[16px] uppercase text-center tracking-widest origin-left md:hidden overflow-hidden transition-transform absolute  top-0 bottom-0 right-0 px-4 pt-8  z-20 w-[254px]  max-w-[254px] bg-[rgba(255,255,255,0.3)] filter backdrop-blur-lg`}>
+  return <div className={`${!isMenuOpen && "translate-x-full"} font-barlow text-[16px] uppercase text-center tracking-widest origin-left md:hidden overflow-hidden transition-transform absolute  top-0 bottom-0 right-0 px-4 pt-8  z-50 w-[254px]  max-w-[254px] bg-[rgba(255,255,255,0.3)] filter backdrop-blur-lg`}>
     <div
       className="w-full mb-16">
       <img

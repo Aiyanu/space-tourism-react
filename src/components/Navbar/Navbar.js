@@ -10,7 +10,8 @@ export default function Navbar() {
     <div className="cursor-pointer ml-8 mt-4">
       <img className="w-[40px]" src={logo} alt="logo" />
     </div>
-    <div className="md:w-[450px] lg:[830px] hidden md:flex items-center justify-around gap-4 p-8 bg-white bg-opacity-5 backdrop-blur-lg text-white">
+    <div className=" w-1/2 bg-white bg-opacity-10 h-0.5 max-md:hidden"/>
+    <div className="hidden md:flex md:w-[450px] lg:[830px] items-center justify-around gap-4 p-8 bg-white bg-opacity-5 backdrop-blur-lg text-white">
       <div className="relative flex-1">
         <NavLink className={({ isActive }) => (isActive && "active") + " text-[14px] whitespace-nowrap"} to={"/"}>
           <span className="font-[700] mr-1 max-md:hidden">00</span> Home
