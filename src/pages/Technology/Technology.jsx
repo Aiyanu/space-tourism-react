@@ -8,13 +8,13 @@ const Technology = () => {
   const tech = techData[currentTech];
   return (
     <div className="bg-bgTechnologyMobile md:bg-bgTechnologyTablet lg:bg-bgTechnologyDesktop h-screen bg-cover overflow-auto lg:overflow-hidden">
-      <div className="mt-20 mb-16 md:mt-28 md:mb-0 text-white w-full">
+      <div className="mt-20 md:mt-28 md:mb-0 text-white w-full">
         <h1 className="text-center md:text-left md:ml-8 font-barlow uppercase text-[16px] lg:text-3xl lg:mb-16 text-white">
           <span className="text-[rgba(255,255,255,0.4)] mr-4">03</span>Space
           launch 101
         </h1>
       </div>
-      <div className="mt-16 lg:flex justify-between lg:mt-2">
+      <div className="mt-16 lg:flex justify-between lg:mt-0 items-start">
         <div className="flex flex-col gap-8 lg:flex-row lg:justify-center lg:items-center lg:gap-16 lg:mx-auto">
           <img
             className="w-full lg:hidden"
@@ -48,7 +48,11 @@ const Technology = () => {
             </p>
           </div>
         </div>
-        <img className="hidden lg:block" src={tech.images.portrait} alt="" />
+        <img
+          className="hidden lg:block relative bottom-16"
+          src={tech.images.portrait}
+          alt=""
+        />
       </div>
     </div>
   );

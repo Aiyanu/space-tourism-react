@@ -11,8 +11,8 @@ export default function Destination() {
 
   return (
     <div className="bg-bgDestinationMobile md:bg-bgDestinationTablet lg:bg-bgDestinationDesktop h-screen bg-cover overflow-auto lg:overflow-hidden">
-      <div className="mt-20 mb-16 md:mt-28 md:mb-0 text-white w-full lg:p-16">
-        <h1 className="text-center md:text-left md:ml-8 font-barlow uppercase text-[16px] lg:text-3xl lg:mb-16">
+      <div className="mt-20 mb-16 md:mb-0 text-white w-full lg:p-16">
+        <h1 className="text-center md:text-left md:ml-8 font-barlow uppercase text-[16px] lg:text-3xl">
           <span className="text-[rgba(255,255,255,0.4)] mr-4">01</span>Pick your
           destination
         </h1>
