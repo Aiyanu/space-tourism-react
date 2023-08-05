@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="font-bellefair text-[80px] md:text-[150px]">SPACE</h1>
         <p className="font-barlow text-[15px] md:text-[16px] lg:text-[18px] md:w-[442px]">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
       </div>
-      <span onClick={() => navigate("/destination")} className="md:text-[32px] cursor-pointer border-none hover:outline outline-offset-2 outline-[40px] outline-[rgba(255,255,255,0.04)] w-[150px] h-[150px] md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] text-[20px] uppercase bg-white text-primary grid rounded-full place-items-center">Explore</span>
+      <span onClick={() => navigate("/destination")} className="font-bellefair md:text-[32px] cursor-pointer border-none hover:outline outline-offset-2 outline-[40px] outline-[rgba(255,255,255,0.1)] w-[150px] h-[150px] md:w-[242px] md:h-[242px] lg:w-[274px] lg:h-[274px] text-[20px] uppercase bg-white text-primary grid rounded-full place-items-center">Explore</span>
     </div>
   </div>;
 }

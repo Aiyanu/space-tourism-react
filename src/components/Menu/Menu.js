@@ -15,7 +15,7 @@ export default function Menu() {
     </div>
     <div className="flex flex-col gap-4 justify-center items-start text-white uppercase text-[16px]">
       <NavLink to={"/"}><span className="font-[700] mr-2">00</span> Home</NavLink>
-      <NavLink to={"/destinations"}><span className="font-[700] mr-2">01</span> Destination</NavLink>
+      <NavLink to={"/destination"}><span className="font-[700] mr-2">01</span> Destination</NavLink>
       <NavLink to={"/crew"}><span className="font-[700] mr-2">02</span> Crew</NavLink>
       <NavLink to={"/technology"}><span className="font-[700] mr-2">03</span> Technology</NavLink>
     </div>

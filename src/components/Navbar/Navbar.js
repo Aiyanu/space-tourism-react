@@ -17,7 +17,7 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className="relative flex-1">
-        <NavLink className={({ isActive }) => (isActive && "active") + " text-[14px] gap-2 whitespace-nowrap"} to={"/destinations"}>
+        <NavLink className={({ isActive }) => (isActive && "active") + " text-[14px] gap-2 whitespace-nowrap"} to={"/destination"}>
           <span className="font-[700] mr-1 max-md:hidden">01</span> Destination
         </NavLink>
       </div>
